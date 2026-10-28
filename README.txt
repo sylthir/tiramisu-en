@@ -8,14 +8,20 @@ CÀI ĐẶT (một lần)
   3. Mở config.json, điền romfs_dir = thư mục romfs gốc của game (chứa Data\resources.assets,
      Data\Managed\Metadata\global-metadata.dat, Data\StreamingAssets\scene\scene_jp).
      romfs_dir chỉ dùng để ĐỌC file gốc khi vá; không dùng để cài.
+  4. Nếu có DLC: điền config.json -> dlc[].romfs_dir = thư mục romfs của title DLC
+     (vd ...\dump\0100E81024F41001\romfs) và dlc[].bundle = novel/novel_aoc01.
+     BUILD_DIST.bat patch cả game gốc + DLC; BUILD_DLC.bat chỉ build DLC và cập nhật thẳng
+     dist\<title_id>\English\romfs\novel\... (không cần chạy lại toàn bộ).
 
-WORKBOOK: "Miramisu Eng.xlsx" (80 sheet)
-  TOC, Character_names, Speaker_labels, Dic_terms, Dictionary, các sheet chương, Huong_dan.
+WORKBOOK: "Miramisu Eng.xlsx" (81 sheet)
+  TOC, Character_names, Speaker_labels, Dic_terms, Dictionary, DLC_Novel_aoc01, các sheet chương, Huong_dan.
   - Dic_terms: 144 thuật ngữ [dic no=..] trong thoại.
   - Dictionary: 144 mục từ điển trong game, mỗi mục 2 dòng:
       Dict|<no>|title  = tên mục (cột C đã điền sẵn từ Dic_terms)
       Dict|<no>|text   = phần giải thích (cột C để trống, cần dịch)
-    Điền cột C. Ô trống -> khi build giữ nguyên tiếng Nhật.
+  - DLC_Novel_aoc01: 546 dòng truyện ngắn DLC (novel01..novel05), ID Novel|<tên>|<dòng>.
+    Dòng trống và thụt đầu dòng được giữ khi build.
+  Điền cột C. Ô trống -> khi build giữ nguyên tiếng Nhật.
   - Tên MC mặc định đã đổi thành Aria trong metadata; ô nhập tên trong scene_jp cũng là Aria.
 
 QUY TRÌNH
@@ -25,16 +31,18 @@ QUY TRÌNH
   python add_dictionary_sheet.py   thêm/cập nhật riêng sheet Dictionary
   BUILD_DIST.bat    build TOÀN BỘ mod vào dist\English\romfs  (python build_dist.py)
 
-KẾT QUẢ
-  dist\English\romfs\Data\resources.assets                      (từ điển tiếng Anh)
-  dist\English\romfs\Data\Managed\Metadata\global-metadata.dat  (tên mặc định Aria)
-  dist\English\romfs\Data\StreamingAssets\scenario\scenario01, scenario_aoc01, scenario_aoc02
-  dist\English\romfs\Data\StreamingAssets\scene\scene_jp         (ô nhập tên Aria)
+KẾT QUẢ (mỗi title 1 thư mục)
+  dist\0100E81024F40000\English\romfs\Data\resources.assets                      (từ điển)
+  dist\0100E81024F40000\English\romfs\Data\Managed\Metadata\global-metadata.dat  (tên Aria)
+  dist\0100E81024F40000\English\romfs\Data\StreamingAssets\scenario\scenario01, scenario_aoc01, scenario_aoc02
+  dist\0100E81024F40000\English\romfs\Data\StreamingAssets\scene\scene_jp         (ô nhập tên Aria)
+  dist\0100E81024F41001\English\romfs\novel\novel_aoc01                           (truyện ngắn DLC)
   dist\README.txt
 
-  Cài: copy thư mục dist\English vào
-       %APPDATA%\eden\load\0100E81024F40000\
-     sao cho thành ...\load\0100E81024F40000\English\romfs\Data\...
+  Cài: copy từng thư mục title vào đúng chỗ:
+    dist\0100E81024F40000\English  ->  %APPDATA%\eden\load\0100E81024F40000\
+    dist\0100E81024F41001\English  ->  %APPDATA%\eden\load\0100E81024F41001\
+  sao cho thành ...\load\<title_id>\English\romfs\...
 
 GHI CHÚ
   - Không đổi chara_info: scenario dùng lệnh [アリア ...] nên charaname là khoá tra sprite/voice.

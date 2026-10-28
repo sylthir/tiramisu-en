@@ -80,15 +80,16 @@ def main():
             last = r
         elif last and r > last + 2:
             break
-    new_row = last + 1
+    new_row = next((r for r in range(7, last + 1) if str(toc.cell(r, 1).value) == 'Dictionary'), last + 1)
     vals = ['Dictionary', row - 2, '=B%d-COUNTBLANK(Dictionary!C2:C%d)' % (new_row, row - 1),
             '=C%d/B%d' % (new_row, new_row), 'Từ điển trong game: tên mục + giải thích (Dictionary TextAsset)']
     for i, v in enumerate(vals, 1):
         c = toc.cell(new_row, i, v)
         c.font = F_BODY
         c.alignment = WRAP
-    toc.cell(5, 2, '=SUM(B7:B%d)' % new_row)
-    toc.cell(5, 3, '=SUM(C7:C%d)' % new_row)
+    end = max(last, new_row)
+    toc.cell(5, 2, '=SUM(B7:B%d)' % end)
+    toc.cell(5, 3, '=SUM(C7:C%d)' % end)
     print('Dictionary: %d mục = %d dòng (title %d, text %d), TOC row %d' % (
         len(data), row - 2, n_title, n_text, new_row))
 

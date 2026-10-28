@@ -71,5 +71,13 @@
     "to": "Aria",
     "chara_info": false
   },
-  "romfs_dir": "C:\\Users\\sylthir\\AppData\\Roaming\\eden\\dump\\0100E81024F40000\\romfs"
+  "romfs_dir": "C:\\Users\\sylthir\\AppData\\Roaming\\eden\\dump\\0100E81024F40000\\romfs",
+  "dlc": [
+    {
+      "title_id": "0100E81024F41001",
+      "romfs_dir": "C:\\Users\\sylthir\\AppData\\Roaming\\eden\\dump\\0100E81024F41001\\romfs",
+      "bundle": "novel/novel_aoc01",
+      "sheet": "DLC_Novel_aoc01"
+    }
+  ]
 }

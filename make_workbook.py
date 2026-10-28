@@ -112,6 +112,34 @@ def build_sheets(scen, old, tb):
             rows.append([tid, e.get('title', ''), en(tid, term_en.get(no, '')), 'Từ điển - tên', ctx, 'Tên mục'])
             rows.append([xid, e.get('text', ''), en(xid), 'Từ điển - giải thích', ctx, ''])
         sheets['Dictionary'] = rows
+
+    # Truyện ngắn DLC (bundle novel/novel_aoc0x) — mỗi dòng truyện 1 dòng sheet
+    for dlc in cfg.get('dlc', []):
+        try:
+            import UnityPy
+            romfs = os.path.expandvars(dlc['romfs_dir'].strip().strip('"'))
+            path = os.path.join(romfs, *dlc['bundle'].replace('\\', '/').split('/'))
+            env = UnityPy.load(path)
+            rows = []
+            for o in env.objects:
+                if o.type.name != 'TextAsset':
+                    continue
+                t = o.read(); name = t.m_Name; data = t.m_Script
+                if isinstance(data, str):
+                    data = data.encode('utf-8')
+                txt = data.decode('utf-8-sig')
+                for idx, line in enumerate(txt.replace('\r\n', '\n').split('\n')):
+                    if not line.strip():
+                        continue
+                    rid = 'Novel|%s|%d' % (name, idx)
+                    rows.append([rid, line, en(rid), 'Truyện ngắn DLC',
+                                 '%s / dòng %d' % (name, idx + 1), ''])
+            if rows:
+                sheet = dlc.get('sheet', 'DLC_Novel')
+                sheets[sheet] = rows
+                UI_DESC[sheet] = 'Truyện ngắn DLC (%s)' % dlc['bundle']
+        except Exception as e:
+            print('! bỏ qua DLC %s: %s' % (dlc.get('title_id', '?'), e))
     lab_en = {r[1]: r[2] for r in chars + others}
     for stem, L in scen.items():
         rows = []

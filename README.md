@@ -1,7 +1,6 @@
 **MIRAMISU** - MOD version
 
-*Respiratory CHỈ build ra thư mục dist. Không cài gì vào Eden, không sửa save.*
-*Chỉnh sửa từ tool gốc Miramisu_EN_Tool.*
+*Respiratory CHỈ build ra thư mục dist. Không cài gì vào Eden, không sửa save. Chỉnh sửa từ tool gốc Miramisu_EN_Tool.*
 
 ## Cài đặt
   1. Python 3.10+ và:  pip install openpyxl UnityPy lz4
@@ -15,7 +14,7 @@
      dist\<title_id>\English\romfs\novel\... (không cần chạy lại toàn bộ).
 
 WORKBOOK: "Miramisu Eng.xlsx" (81 sheet)
-  TOC, Character_names, Speaker_labels, Dic_terms, Dictionary, DLC_Novel_aoc01, các sheet chương, Huong_dan.
+  - TOC, Character_names, Speaker_labels, Dic_terms, Dictionary, DLC_Novel_aoc01, các sheet chương, Huong_dan.
   - Dic_terms: 144 thuật ngữ [dic no=..] trong thoại.
   - Dictionary: 144 mục từ điển trong game, mỗi mục 2 dòng:
       Dict|<no>|title  = tên mục (cột C đã điền sẵn từ Dic_terms)
@@ -26,23 +25,27 @@ WORKBOOK: "Miramisu Eng.xlsx" (81 sheet)
   - Tên MC mặc định đã đổi thành Aria trong metadata; ô nhập tên trong scene_jp cũng là Aria.
 
 ## Quy trình
+```
   TRANSLATE.bat     dịch các ô trống (ưu tiên Character_names, Speaker_labels, Dic_terms, Dictionary)
   MAKE_WORKBOOK.bat tạo lại workbook, giữ bản dịch cũ theo ID; sheet Dictionary tự sinh từ
                     dict\dictionary.json (nếu đã có thì giữ bản dịch cũ)
   python add_dictionary_sheet.py   thêm/cập nhật riêng sheet Dictionary
   BUILD_DIST.bat    build TOÀN BỘ mod vào dist\English\romfs  (python build_dist.py)
-
+```
 ## Kết quả
+```
   dist\0100E81024F40000\English\romfs\Data\resources.assets                      (từ điển)
   dist\0100E81024F40000\English\romfs\Data\Managed\Metadata\global-metadata.dat  (tên Aria)
   dist\0100E81024F40000\English\romfs\Data\StreamingAssets\scenario\scenario01, scenario_aoc01, scenario_aoc02
   dist\0100E81024F40000\English\romfs\Data\StreamingAssets\scene\scene_jp         (ô nhập tên Aria)
   dist\0100E81024F41001\English\romfs\novel\novel_aoc01                           (truyện ngắn DLC)
   dist\README.txt
-
+```
   Cài: copy từng thư mục title vào đúng chỗ:
-    dist\0100E81024F40000\English  ->  %APPDATA%\eden\load\0100E81024F40000\
-    dist\0100E81024F41001\English  ->  %APPDATA%\eden\load\0100E81024F41001\
+```
+  dist\0100E81024F40000\English  ->  %APPDATA%\eden\load\0100E81024F40000\
+  dist\0100E81024F41001\English  ->  %APPDATA%\eden\load\0100E81024F41001\
+```
   sao cho thành ...\load\<title_id>\English\romfs\...
 
 ## Ghi chú

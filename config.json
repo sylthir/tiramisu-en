@@ -1,0 +1,75 @@
+{
+  "game": "Le Mirage Mystique",
+  "title_id": "0100E81024F40000",
+  "mod_name": "English",
+  "source_dir": "source",
+  "bundles": [
+    "scenario01",
+    "scenario_aoc01",
+    "scenario_aoc02"
+  ],
+  "workbook": "Miramisu Eng.xlsx",
+  "out_dir": "dist",
+  "strip_ruby": true,
+  "speaker_mode": "translate_all",
+  "honorific_rule": false,
+  "name_variants": {},
+  "slots": [
+    {
+      "engine": "groq",
+      "model": "openai/gpt-oss-120b",
+      "interval": 2.5,
+      "batch": 12
+    },
+    {
+      "engine": "groq",
+      "model": "qwen/qwen3.8-27b",
+      "interval": 6.5,
+      "batch": 12
+    },
+    {
+      "engine": "deepl",
+      "model": "deepl",
+      "interval": 1.0,
+      "batch": 40
+    },
+    {
+      "engine": "groq",
+      "model": "openai/gpt-oss-20b",
+      "interval": 2.5,
+      "batch": 12
+    }
+  ],
+  "layout": {
+    "enabled": false,
+    "width": 57,
+    "max_lines": 3,
+    "scale_pct": 100,
+    "steps_pct": [
+      95,
+      90,
+      85,
+      80,
+      75
+    ],
+    "size_open": "<size={pct}%>",
+    "size_close": "</size>",
+    "keep_newlines": false
+  },
+  "ui_patch": {
+    "enabled": true,
+    "file": "Data/resources.assets",
+    "scene": "Data/level9",
+    "scene_bundle": "Data/StreamingAssets/scene/scene_jp",
+    "extend_left": 0,
+    "extend_right": 0,
+    "sliced": false
+  },
+  "mc_name": {
+    "enabled": true,
+    "from": "アリア",
+    "to": "Aria",
+    "chara_info": false
+  },
+  "romfs_dir": "C:\\Users\\sylthir\\AppData\\Roaming\\eden\\dump\\0100E81024F40000\\romfs"
+}

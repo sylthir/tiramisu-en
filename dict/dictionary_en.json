@@ -1,0 +1,613 @@
+{
+  "data": [
+    {
+      "category": "あ",
+      "no": "100",
+      "title": "The Present God",
+      "text": "God in human form.\nA being who is both a man and a god at the same time.",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "101",
+      "title": "Abamono",
+      "text": "A word that abhors money.",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "102",
+      "title": "foreign country",
+      "text": "Countries other than Dongling. At present, Dongyu is in isolation.",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "103",
+      "title": "moment",
+      "text": "Approximately 2 hours.",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "104",
+      "title": "Hour of the Dog",
+      "text": "Around 7 p.m. to 9 p.m.\n",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "105",
+      "title": "Hour of the Pig",
+      "text": "２１時から２３時ごろ。",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "106",
+      "title": "Hour of the Rabbit",
+      "text": "５時から７時ごろ。",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "107",
+      "title": "Hour of the Afternoon",
+      "text": "１１時から１３時ごろ。",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "108",
+      "title": "Automata",
+      "text": "異国の自動カラクリ人形。\n自ら動くもの。",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "109",
+      "title": "Oparts",
+      "text": "歴史的遺物の一種。\nその時代の文明では\n本来生み出せないはずの\n不可思議な出土品を指す。",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "110",
+      "title": "Daimon",
+      "text": "花街に１か所だけある入り口。\n特に門番などはいない。",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "111",
+      "title": "Sidelining",
+      "text": "ここでは特に、親しくない相手に\n恋をすること。片思い。",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "112",
+      "title": "Okiya",
+      "text": "凍玻璃では、特に芸妓が所属して\n生活する家のこと。\n客からの注文を受けて芸妓は\n座敷・宴席などに向かう。",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "113",
+      "title": "Letter of Gratitude",
+      "text": "柳営が民衆に広く知らせるために\n出す公文書。",
+      "ruby": ""
+    },
+    {
+      "category": "あ",
+      "no": "114",
+      "title": "Acoustic transducer",
+      "text": "声を大きく響かせるカラクリ機器。\nマイクのこと。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "200",
+      "title": "Corner Lights",
+      "text": "手提げ型のランプ。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "201",
+      "title": "gas",
+      "text": "引火性の気体。ガス。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "202",
+      "title": "Karakuri Lantern",
+      "text": "カラクリ仕掛けの灯篭。\n模様が変化する。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "203",
+      "title": "Karakuri Box",
+      "text": "カラクリ仕掛けの金庫。\n開けるには複雑な手順を踏む。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "204",
+      "title": "Tile plate",
+      "text": "新聞のこと。\n多くは半紙一枚刷り。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "205",
+      "title": "government official",
+      "text": "柳営で働く役人。\n凍玻璃の行政に携わる。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "206",
+      "title": "regulation",
+      "text": "凍玻璃において、\n貴族と平民の婚姻、\nおよび恋愛は禁止されている。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "207",
+      "title": "brothel",
+      "text": "芸妓や娼妓を置いて、\n客を遊ばせる店。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "208",
+      "title": "Madness",
+      "text": "大嵐。\n凍玻璃が地上にあった頃、\n何度も大きな水害をもたらした。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "209",
+      "title": "Forbidden Areas",
+      "text": "大樹の住居。\n凍玻璃の中央、扶桑樹の根元にある。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "210",
+      "title": "Kinsamurai",
+      "text": "大樹の直属の護衛。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "211",
+      "title": "Prohibited Books",
+      "text": "思想統制のために柳営が\n禁止した書物。\n凍玻璃では地上に関する記載の\nあるもの、特に、地上に対して\n肯定的なものは禁書となる。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "212",
+      "title": "Yinwan",
+      "text": "東瀛の首都。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "213",
+      "title": "rickshaw",
+      "text": "カラクリ仕掛けの自動車のこと。\n貴族など富裕層のみ所持している。\n最大２人乗り。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "214",
+      "title": "Walnut Yubeshi",
+      "text": "もち粉、砂糖、胡桃などを混ぜ、\nこねて蒸した餅菓子。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "215",
+      "title": "Guo Tsugi",
+      "text": "四角形が鎖状に連なる柄。\n一度入ってしまえば出られない\n遊郭から、その名がつけられたとも。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "216",
+      "title": "Six at a end",
+      "text": "１８時ごろ。\n日の入り時。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "217",
+      "title": "common crane",
+      "text": "街の治安維持を担う機関。\nもとは外敵の侵略に\n対抗するために組織された。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "218",
+      "title": "Black text",
+      "text": "和菓子を切り分ける楊枝。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "219",
+      "title": "geisha",
+      "text": "料亭や妓楼の宴席に呼ばれ、\n舞踊や音曲で客をもてなす\n花街の職業。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "220",
+      "title": "Monster Possession",
+      "text": "怪物に取り憑かれたかのように暴れ、\n人を襲う者たちのこと。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "221",
+      "title": "Phantom Lantern Festival",
+      "text": "年に一度、７日間に渡って催される\n凍玻璃最大の祝祭。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "222",
+      "title": "death",
+      "text": "身分ある人の死去。\n凍玻璃では特に、大樹、\n大樹の親族が亡くなること。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "223",
+      "title": "chest",
+      "text": "竹や柳を編んで作ったつづら籠。\n衣料や薬品、文書など\n様々なものを入れる。",
+      "ruby": ""
+    },
+    {
+      "category": "か",
+      "no": "224",
+      "title": "Errand",
+      "text": "貴族の屋敷など、\n得意先に定期的に出入りして\n受注を得る商人。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "300",
+      "title": "Hour of the Monkey",
+      "text": "１５時から１７時ごろ。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "301",
+      "title": "The Monkey's First Hour",
+      "text": "１５時。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "302",
+      "title": "Three-and-nine degrees",
+      "text": "婚礼の席で、\n新郎新婦が盃を交わすこと。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "303",
+      "title": "officer",
+      "text": "黒鶴の幹部職の総称。\n上から将官、佐官、尉官の階級に\n分かれている。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "304",
+      "title": "master",
+      "text": "手習い所の教師のこと。\n医者など、多くの場合は\n本業が別にある。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "305",
+      "title": "A quarter of an hour",
+      "text": "約３０分。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "306",
+      "title": "Shoya",
+      "text": "貴族当主らの命を受けて、\n区の事務を統括する者。\n当主に陳情・報告を届けたり、\n区の工事の監督なども行う。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "307",
+      "title": "prostitute",
+      "text": "売春を生業とする女性。\n娼妓は妓楼から出られず、\n自分の部屋で客を取る。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "308",
+      "title": "December",
+      "text": "太陽暦の１２月。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "309",
+      "title": "Girls' Schools",
+      "text": "貴族の女子が通う学校。\n凍玻璃に関する歴史や礼儀作法など、\n教養を身につける。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "310",
+      "title": "water service",
+      "text": "貴族の多くは水道費を支払い、\n屋敷まで水道を引いている。\n平民の多くは中街の共用井戸を使う。\n下水道は城下街から端街まで\n整っている。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "311",
+      "title": "With numbers",
+      "text": "貴族の中でも特に高位の家、\n東西南北の七家を指す言葉。\n数字が小さいほど位が高い。\n主人公の家は東五。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "312",
+      "title": "barrier",
+      "text": "泉下の底にある交易拠点。\n凍玻璃と地上を繋ぐ唯一の出入口。",
+      "ruby": ""
+    },
+    {
+      "category": "さ",
+      "no": "313",
+      "title": "Izumishita",
+      "text": "凍玻璃の下層。\n神隠しされた罪人や、\nその子孫が暮らしている。",
+      "ruby": ""
+    },
+    {
+      "category": "た",
+      "no": "400",
+      "title": "Other Harm Control Mechanism",
+      "text": "人を害する行動を、\nあらかじめ制御する機構。",
+      "ruby": ""
+    },
+    {
+      "category": "た",
+      "no": "401",
+      "title": "The Clan of Knowledge",
+      "text": "代々宰相を輩出している貴族の家。\n凍玻璃の動力である蒸気機関の\n管理・修繕も担う。",
+      "ruby": ""
+    },
+    {
+      "category": "た",
+      "no": "402",
+      "title": "legitimate child",
+      "text": "家督を継ぐ子。特に、長子。",
+      "ruby": ""
+    },
+    {
+      "category": "た",
+      "no": "403",
+      "title": "Hand broiled brazier",
+      "text": "手足を温めるための小ぶりの火鉢。",
+      "ruby": ""
+    },
+    {
+      "category": "た",
+      "no": "404",
+      "title": "Hands on the hand",
+      "text": "いわゆる妾のこと。\n手をかけて愛するもの。",
+      "ruby": ""
+    },
+    {
+      "category": "た",
+      "no": "405",
+      "title": "Training Schools",
+      "text": "子どもたちが読み書き、\nそろばんなどを学ぶための\n教育施設。",
+      "ruby": ""
+    },
+    {
+      "category": "た",
+      "no": "406",
+      "title": "Tung-hsien",
+      "text": "地上に存在する極東の島国。\n凍玻璃は東瀛に属しながら、\n自治を認められている。",
+      "ruby": ""
+    },
+    {
+      "category": "た",
+      "no": "407",
+      "title": "Sugar Flowers",
+      "text": "表面に凹凸がある小粒の砂糖菓子。\n金平糖。",
+      "ruby": ""
+    },
+    {
+      "category": "た",
+      "no": "408",
+      "title": "House of the Sword Kei",
+      "text": "凍玻璃の貴族で唯一、\n医者を生業とする一族の家。\n刀圭は薬を調合する匙のこと、\n転じて医者を指す。",
+      "ruby": ""
+    },
+    {
+      "category": "た",
+      "no": "409",
+      "title": "Scientific Staff",
+      "text": "罪を犯した人。\n凍玻璃では\n特に『最初』の罪人を指す。",
+      "ruby": ""
+    },
+    {
+      "category": "た",
+      "no": "410",
+      "title": "Hour of the Rooster",
+      "text": "１７時から１９時ごろ。",
+      "ruby": ""
+    },
+    {
+      "category": "な",
+      "no": "500",
+      "title": "Nakaji-hsien",
+      "text": "城下街の外側にある商業地区。\n主に平民の居住区でもある。\n東は五区～九区、\n西は十区～十四区、\n南は十五区～十九区、\n北は二十区～二十四区が\n中街となっている。",
+      "ruby": ""
+    },
+    {
+      "category": "な",
+      "no": "501",
+      "title": "Nato",
+      "text": "衣服などを仕舞っておく部屋。",
+      "ruby": ""
+    },
+    {
+      "category": "な",
+      "no": "502",
+      "title": "netsuke",
+      "text": "印籠や巾着を帯に吊るすための\n留め具。",
+      "ruby": ""
+    },
+    {
+      "category": "な",
+      "no": "503",
+      "title": "Hour of the Child",
+      "text": "２３時から１時ごろ。",
+      "ruby": ""
+    },
+    {
+      "category": "は",
+      "no": "600",
+      "title": "Hamachi",
+      "text": "中街の外側、凍玻璃の端に\n広がる平民の居住区。\n二十五区から三十二区まで。",
+      "ruby": ""
+    },
+    {
+      "category": "は",
+      "no": "601",
+      "title": "Glazing disease",
+      "text": "泉下の風土病。\n肺が硬化し死に至る、\n不治の病。",
+      "ruby": ""
+    },
+    {
+      "category": "は",
+      "no": "602",
+      "title": "Half an hour",
+      "text": "約１時間。",
+      "ruby": ""
+    },
+    {
+      "category": "は",
+      "no": "603",
+      "title": "Half-bell",
+      "text": "火災などの災害発生時に鳴らし、\n住民に危険を知らせる鐘。",
+      "ruby": ""
+    },
+    {
+      "category": "は",
+      "no": "604",
+      "title": "The Hour of the Dead",
+      "text": "１３時から１５時ごろ。",
+      "ruby": ""
+    },
+    {
+      "category": "は",
+      "no": "605",
+      "title": "Scarlet Gold",
+      "text": "緋色や黄金色に輝く金属。\n熱伝導が良く、永久機関の\n核として使われている。",
+      "ruby": ""
+    },
+    {
+      "category": "は",
+      "no": "606",
+      "title": "Fusang-hsien",
+      "text": "凍玻璃の中心にそびえる大木。\n凍玻璃の創成から枯れることなく\n茂り続けている。",
+      "ruby": ""
+    },
+    {
+      "category": "は",
+      "no": "607",
+      "title": "code",
+      "text": "隠語、暗号のこと。",
+      "ruby": ""
+    },
+    {
+      "category": "は",
+      "no": "608",
+      "title": "July",
+      "text": "太陽暦の７月。",
+      "ruby": ""
+    },
+    {
+      "category": "は",
+      "no": "609",
+      "title": "propaganda",
+      "text": "政治的な意図をもって行われる\n主義・思想の宣伝。\n民衆の思想操作。",
+      "ruby": ""
+    },
+    {
+      "category": "は",
+      "no": "610",
+      "title": "Red plate",
+      "text": "携帯用の紅入れ。\n二つ折りの板に紅を刷いたもので、\n外装に凝ったものが多い。",
+      "ruby": ""
+    },
+    {
+      "category": "ま",
+      "no": "700",
+      "title": "Tsune-hsien",
+      "text": "格子戸のこと。\n見世に並んだ娼妓は、\n格子戸越しに客引きをする。",
+      "ruby": ""
+    },
+    {
+      "category": "ま",
+      "no": "701",
+      "title": "Amulet bag",
+      "text": "お守り。\n特に護符を入れる小さな袋。\n様々な縁起柄があり、\nおしゃれな装飾品の\n一種ともされる。",
+      "ruby": ""
+    },
+    {
+      "category": "や",
+      "no": "800",
+      "title": "Eight Pieces",
+      "text": "おやつ時。",
+      "ruby": ""
+    },
+    {
+      "category": "ら",
+      "no": "900",
+      "title": "Falling",
+      "text": "心が広く、些事にこだわらないさま。",
+      "ruby": ""
+    },
+    {
+      "category": "ら",
+      "no": "901",
+      "title": "Liu-ying",
+      "text": "凍玻璃の行政機関。\n凍玻璃の中心部、一区に\n置かれている。",
+      "ruby": ""
+    },
+    {
+      "category": "ら",
+      "no": "902",
+      "title": "Roulade",
+      "text": "ロールケーキ。\nスポンジ生地にクリームや\n果物を乗せて巻いたもの。",
+      "ruby": ""
+    },
+    {
+      "category": "ら",
+      "no": "903",
+      "title": "Jail",
+      "text": "泉下に置かれた監獄。\n罪人の中でも、\n特に重罪を犯した者は\n牢舎に入れられ労働に従事する。",
+      "ruby": ""
+    }
+  ]
+}
